@@ -1,7 +1,16 @@
 ﻿@{
-    ViewData["Title"] = "About";
+    int x = 20;
+    ViewData["Title"] = "Sobre";
 }
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
+<style>
+    h2 {
+        background-color: red;
+        color:white;
+    }
+    </style>
+
+<h2>@ViewData["Title"]: Esse é o titulo</h2>
+<h3>@ViewData["Message"] Mensagem confirmada</h3>
+<h1>@ViewData["Email"] : Esse é meu email</h1>
 
 <p>Use this area to provide additional information.</p>
